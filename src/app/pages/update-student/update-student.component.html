@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+    <link rel="stylesheet" href="./update-student.component.css">
+</head>
+<body>
+    <div class="container">
+        <h1>You Can Update Here</h1>
+        <input  class="Name" type="text" placeholder="Name"[(ngModel)]="userData.custName">
+        <br>
+        <input class="PhoneNo" type="text" placeholder="PhoneNo"[(ngModel)]="userData.mobileNumber">
+        <br>
+        <input  class="Email" type="text" placeholder="E-mail"[(ngModel)]="userData.email">
+        <br>
+        <input class="Pass" type="text" placeholder="Password"[(ngModel)]="userData.password">
+        <br>
+        <button class="updates" (click)="formSubmit()">update</button>
+        &nbsp;
+        <button class="cancel" (click)="back()">cancel</button>
+    
+    </div>
+</body>
+</html>

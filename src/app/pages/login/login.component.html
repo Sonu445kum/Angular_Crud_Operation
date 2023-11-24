@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./login.component.css">
+</head>
+<body>
+    <div>
+        <h1>This is our Login Page</h1>
+        <input  class="Email" type="text" placeholder="email"[(ngModel)]="userData.email">
+        
+        <input class="Pass" type="text" placeholder="Password"[(ngModel)]="userData.password">
+        
+        <button class="submit btn"  (click)="formSubmit()">login</button>
+        
+        <button class="sign btn" (click)="signup()">signup</button>
+       
+    </div>
+</body>
+</html>

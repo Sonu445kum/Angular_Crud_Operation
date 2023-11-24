@@ -1,0 +1,22 @@
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color:#ce8d8d;}
+body{
+    background-color: rgb(48, 99, 99);
+    border-radius: 1%;
+    height: 100vh;
+}
+.update{
+    background-color:  rgb(10, 183, 183);
+}
+.Delete{
+    background-color: crimson;
+}

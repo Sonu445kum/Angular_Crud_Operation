@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    margin: auto;
+    background-color: cadetblue;
+    height: 100vh;
+}
+.Name,.PhoneNo,.Email,.Pass{
+    font-size: 50px;
+}
+.sub{
+    font-size: 50px;
+    background-color: brown;
+}
+.log{
+    font-size: 50px;
+    background-color: green;
+}

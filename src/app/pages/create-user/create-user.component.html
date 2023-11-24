@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create</title>
+    <link rel="stylesheet" href="./create-user.component.css">
+</head>
+<body>
+    <div class="container">
+        <h1>You Can Create Here</h1>
+        <input  class="Name" type="text" placeholder="Name"[(ngModel)]="userData.custName">
+        <br>
+        <input class="PhoneNo" type="text" placeholder="PhoneNo"[(ngModel)]="userData.mobileNumber">
+        <br>
+        <input  class="Email" type="text" placeholder="E-mail"[(ngModel)]="userData.email">
+        <br>
+        <input class="Pass" type="text" placeholder="Password"[(ngModel)]="userData.password">
+        <br>
+        <button class="sub" (click)="formSubmit()">Register</button>
+        &nbsp;
+        <button class="log" (click)="login()">login</button>
+    
+    </div>
+</body>
+</html>
+<!-- <div class="abc mx auto" style="width: 18rem;">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email Address </label>
+        <input required[(ngModel)]="userData.email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="nameExample.com">
+
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name  </label>
+        <input required[(ngModel)]="userData.custName" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Thanos">
+        
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Mobile </label>
+        <input required[(ngModel)]="userData.mobileNumber" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mobile_No">
+        
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Password </label>
+        <input required[(ngModel)]="userData.password" type="email" class="form-control" id="exampleFormControlInput1" placeholder="**************">
+        
+    </div> -->
+    <!-- <button (click)="formSubmit()" class="btn btn-success">Register</button>
+    &nbsp;
+    <button (click)="login()" class="btn btn-primary">login</button>
+
+</div> -->

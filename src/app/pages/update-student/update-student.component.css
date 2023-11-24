@@ -1,0 +1,26 @@
+body{
+    background-color: cornflowerblue;
+    border-radius: 2rem;
+    text-align: center;
+    height: 100vh;
+}
+.Name,.PhoneNo,.Email,.Pass{
+    font-size: 50px;
+}
+.updates{
+    font-size: 30px;
+    background-color: chartreuse;
+    position: relative;
+    left: -167px; 
+    border-radius: 3rem;
+
+}
+.cancel{
+    font-size: 30px;
+    background-color: red;
+    position: relative;
+    right: -167px;
+    border-radius: 3rem;
+}
+
+   
